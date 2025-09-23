@@ -1,0 +1,23 @@
+#+title: Readme
+
+A Simple CLI to create, edit, and update secrets using [[https://github.com/FiloSottile/age][age]].
+
+#+begin_src bash
+Manage age-encrypted secrets
+
+Usage:
+  secrets [command]
+
+Available Commands:
+  add         Add a new secret
+  completion  Generate completion script
+  edit        Edit an existing secret
+  generate    Initialize secrets directory and recipients file
+  get         Get a secret value
+  help        Help about any command
+
+Flags:
+  -h, --help   help for secrets
+
+Use "secrets [command] --help" for more information about a command.
+#+end_src
